@@ -1,0 +1,245 @@
+/* Estilos Gerais */
+
+body {
+    font-family: Courier New;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    color: #f4f4f4;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #666;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Estilos para os links no cabeçalho */
+nav ul li a {
+    color: #fff; /* Cor do texto */
+    text-decoration: none; /* Remover sublinhado */
+    font-size: 18px; /* Tamanho da fonte */
+    padding: 10px 20px; /* Espaçamento interno */
+    border-radius: 6px; /* Borda arredondada */
+}
+
+nav ul li a:hover {
+    background-color: #ff6f61; /* Cor de fundo ao passar o mouse */
+    color: #fff; /* Cor do texto ao passar o mouse */
+}
+
+/* Estilo para o título principal */
+h1 {
+    font-size: 36px; /* Tamanho da fonte */
+    margin-bottom: 20px; /* Margem inferior */
+}
+
+
+
+section {
+    padding: 20px;
+    background-color: #444;
+    margin: 20px;
+}
+
+section h2 {
+    margin-top: 0;
+    color: #f4f4f4;
+}
+
+
+/* Formulário */
+
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Estilos para o cabeçalho */
+header#main-header {
+    background-color: #333; /* Cor de fundo escura */
+    color: #fff; /* Cor do texto */
+    padding: 30px 0; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto */
+    font-size: 24px; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito */
+    text-transform: uppercase; /* Transformação para maiúsculas */
+    letter-spacing: 2px; /* Espaçamento entre letras */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+
+
+/* Botões para as seções do portfólio */
+.btn-section {
+    display: inline-block;
+    padding: 6px 20px; /* Reduzindo a altura dos botões */
+    margin-right: 15px; /* Aumentando o espaçamento entre os botões */
+    background-color: #ff6f61; /* Cor chamativa para o tema dark */
+    color: #fff;
+    border: none;
+    border-radius: 20px; /* Tornando os botões mais arredondados */
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-section:hover {
+    background-color: #52d183; /* Alterando a cor ao passar o mouse */
+}
+
+/* Estilos adicionais para o formulário de contato */
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    overflow: hidden; /* Limpa o float */
+}
+
+.form-group label {
+    font-weight: bold;
+    float: left; /* Coloca as etiquetas à esquerda */
+    width: 100px; /* Define a largura das etiquetas */
+    margin-right: 10px; /* Adiciona um espaço entre a etiqueta e o campo de entrada */
+    color: #333; /* Cor do texto das etiquetas */
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: calc(100% - 110px); /* Ajusta o tamanho dos campos de entrada */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.form-group input[type="text"]:focus,
+.form-group input[type="email"]:focus,
+.form-group textarea:focus {
+    border-color: #007bff;
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.form-group input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+/* ESTILO DO TOPO DO SITE */
+
+section.topo-do-site{
+    padding: 40px 4%;
+}
+
+.topo-do-site .flex {
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    flex-direction: row-reverse;
+}
+
+.topo-do-site .img-topo-site {
+    order: -1; /* Define a ordem da imagem */
+}
+
+.topo-do-site h1 {
+    color: #fff;
+    font-size: 34px;
+    line-height: 40px;
+    max-width: 50%; /* Adiciona uma largura máxima para o texto */
+}
+
+.topo-do-site .txt-topo-site h1 span {
+    color: rgb(0, 255, 85);
+}
+
+.topo-do-site .txt-topo-site p {
+    color: #fff;
+    margin: 40px 0;
+}
+
+.flex.reverse {
+    flex-direction: row-reverse;
+}
+
+.img-topo-site.right {
+    float: right;
+    margin-left: 20px; 
+    vertical-align: middle;
+}
+
+/* Estilos para o link do projeto no GitHub */
+#portfolio a {
+    color: #fff; /* Cor branca */
+    text-decoration: none; /* Remover sublinhado padrão */
+    transition: color 0.3s ease-in-out; /* Adicionar transição de cor */
+}
+
+#portfolio a:hover {
+    color: #ff6f61; /* Cor vermelho claro ao passar o mouse */
+}
+
+#portfolio a:active {
+    color: #add8e6; /* Cor azul bebê ao clicar */
+}
+
+/* Estilo para a tela do projeto */
+.project-screen {
+    width: 300px; /* Largura da tela */
+    height: 200px; /* Altura da tela */
+    background-color: #fff; /* Cor de fundo da tela */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra da tela */
+    margin-top: 10px; /* Espaçamento superior */
+    overflow: hidden; /* Impede que a imagem ultrapasse os limites da tela */
+}
+
+.project-screen img {
+    width: 100%; /* Ajusta a largura da imagem para preencher a tela */
+    height: 100%; /* Ajusta a altura da imagem para preencher a tela */
+    object-fit: cover; /* Mantém a proporção da imagem e a ajusta dentro da tela */
+    display: block; /* Remove espaços em branco ao redor da imagem */
+}
+

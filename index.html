@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Importando o arquivo de estilo -->
+</head>
+<body>
+
+<header id="main-header">
+    <h1>Bem vindo(a) ao meu portfólio!</h1>
+    <nav>
+        <ul>
+            <!-- Links para as seções -->
+            <li><a href="#sobre" class="btn-section">Sobre mim</a></li>
+            <li><a href="#formacao" class="btn-section">Formação</a></li>
+            <li><a href="#portfolio" class="btn-section">Portfólio</a></li>
+            <li><a href="#contato" class="btn-section">Contato</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <!-- Seção do topo do site -->
+    <section class="topo-do-site">
+        <div class="Interface">
+            <div class="flex">
+                <div class="txt-topo-site">
+                    <div class="img-topo-site right">
+                        <!-- Imagem do topo do site -->
+                        <img src="images/imgtopo.png" alt="imagem topo" width="300" height="300">
+                    </div><!-- img-topo-site -->
+                    <!-- Título e texto do topo do site -->
+                    <h1>A tecnologia é a poesia da lógica<span>.</span></h1>
+                    <p>Um encontro harmonioso entre a arte e a ciência. Cada linha de código é uma estrofe, cada algoritmo é um verso, juntos formam uma sinfonia de inovação. A tecnologia, como a poesia, tem o poder de expressar o inexprimível, de dar forma ao intangível.</p>
+                </div><!-- txt-topo-site -->
+            </div><!-- flex -->
+        </div><!-- Interface -->
+    </section><!-- topo-do-site -->
+</main>
+
+<!-- Seção "Sobre mim" -->
+<section id="sobre">
+    <h2>Sobre mim</h2>
+    <p>Olá! Eu sou Emerson, um entusiasta da web que adora dar vida a interfaces bonitas e práticas. Misturando minhas habilidades técnicas com um toque de criatividade, estou sempre em busca de proporcionar experiências digitais envolventes e acessíveis. Meu objetivo principal é fundir a estética com a usabilidade, transformando cada projeto em uma expressão única de design e funcionalidade. Além disso, tenho um conhecimento básico de inglês para expandir minhas fronteiras!</p>
+</section>
+
+<!-- Seção "Formação" -->
+<section id="formacao">
+    <h2>Formação</h2>
+    <p>Atualmente, estou cursando Engenharia de Software. Tenho uma grande paixão por resolver problemas complexos e criar soluções inovadoras através da programação. Embora ainda não tenha concluído meu curso, estou adquirindo uma sólida base de conhecimentos e habilidades práticas que me permitem contribuir de maneira significativa para projetos de software. Estou ansioso para aplicar o que aprendi em situações do mundo real e continuar crescendo como desenvolvedor de software.</p>
+</section>
+
+<!-- Seção "Portfólio" -->
+<section id="portfolio">
+    <h2>Portfólio</h2>
+    <ul>
+        <li>
+            <a href="https://codelikerz.github.io/meuprojeto/" target="_blank">Meu Projeto no GitHub</a>
+            <!-- Tela do projeto -->
+            <div class="project-screen">
+                <img src="images/OIG3.jpg" alt="Imagem do Projeto">
+            </div>
+        </li>
+    </ul>
+</section>
+
+
+<!-- Seção "Contato" -->
+<section id="contato">
+    <h2>Contato</h2>
+    <p>Se você tiver alguma dúvida, sugestão ou simplesmente quiser entrar em contato, fique à vontade para me enviar uma mensagem através do formulário abaixo. Estou sempre aberto para conversar e ficarei feliz em responder o mais rápido possível.</p>
+    <div class="container">
+        <h2>Entre em Contato</h2>
+        <!-- Formulário de contato -->
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+    </div>
+</section>
+
+<!-- Importando o arquivo JavaScript -->
+<script src="main.js"></script>
+</body>
+</html>
+
